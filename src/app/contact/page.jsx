@@ -10,7 +10,7 @@ export default function Contact() {
       <section className="py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Get In <span className="text-blue-600">Touch</span>
+          <span className="text-blue-600">Get In </span>  <span className="text-blue-600">Touch</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Ready to start your next infrastructure project? Contact us today to discuss your 

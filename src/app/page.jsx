@@ -22,11 +22,33 @@ export default function Home() {
     },
   ];
 
-  const projects = [
-    { title: "20 km Feeder Road Rehabilitation", description: "Gakenke District, Rwanda" },
-    { title: "Bridge Design & Construction Supervision", description: "East Africa" },
-    { title: "Urban Drainage Systems Development", description: "Multiple locations" },
-  ];
+ const projects = [
+  {
+    title: "Modern Road Construction",
+    description:
+      "Building durable, climate-smart roads to connect communities and boost trade.",
+    image: "/images/image.png",   // 👈 put your image in public/images/
+    status: "Completed",
+  },
+  {
+    title: "Bridge Development",
+    description:
+      "State-of-the-art bridge design ensuring safety and long-term resilience.",
+    image: "/images/Bridge.jpg",
+    status: "Ongoing",
+  },
+  {
+    title: "Community Infrastructure",
+    description:
+      "Creating modern drainage, water, and sanitation systems for communities.",
+    image: "/images/urban.webp",
+    status: "Completed",
+  },
+];
+
+
+
+
 
   return (
     <div className="bg-gray-50 min-h-screen">
@@ -38,7 +60,7 @@ export default function Home() {
   style={{ backgroundImage: "url('/images/engineers.jpg')" }}
 >
   {/* Overlay (lighter so background shows) */}
-  <div className="absolute inset-0 bg-blue-900 bg-opacity-50"></div>
+  <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-teal-500 bg-opacity-50"></div>
 
   {/* Content */}
   <div className="relative z-10 px-4 sm:px-6 lg:px-8">
