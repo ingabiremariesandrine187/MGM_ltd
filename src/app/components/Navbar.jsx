@@ -12,6 +12,7 @@ function Navbar() {
     { name: "About Us", href: "/about" },
     { name: "Services", href: "/#services" },
     { name: "Projects", href: "/#projects" },
+      { name: "Our Team", href: "/team" },  
     { name: "Contact", href: "/contact" },
   ];
 
