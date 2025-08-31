@@ -21,9 +21,9 @@ function Navbar() {
     {/* Logo */}
    <Link href="/" className="flex items-center space-x-2">
   <Image
-    src="/images/logo.jpg"   // 👈 place your logo inside the public/images folder
+    src="/images/logo.jpg"   
     alt="MGM Multipurpose Ltd Logo"
-    width={40}               // adjust size
+    width={40}               
     height={40}
     className="rounded-full" // optional: make it circular
   />

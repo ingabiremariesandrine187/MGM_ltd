@@ -59,7 +59,7 @@ export default function Home() {
   className="relative text-center text-white py-32 md:py-40 min-h-screen flex flex-col justify-center bg-cover bg-center"
   style={{ backgroundImage: "url('/images/engineers.jpg')" }}
 >
-  {/* Overlay (lighter so background shows) */}
+  
   <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-teal-500 bg-opacity-50"></div>
 
   {/* Content */}
