@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import ServiceCard from "./components/ServiceCard";
 import ProjectCard from "./components/ProjectCard";
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
-import Image from 'next/image';
+import Link from "next/link";
 
 
 export default function Home() {
@@ -81,9 +81,11 @@ export default function Home() {
         Explore Our Services
         <ArrowRightIcon className="w-5 h-5" />
       </button>
-      <button className="bg-transparent border-2 border-white px-8 py-4 rounded-lg hover:bg-white hover:text-blue-900 transition-colors duration-300 font-semibold text-lg">
-        Contact Us
-      </button>
+      <Link href="/contact">
+  <button className="bg-transparent border-2 border-white px-8 py-4 rounded-lg hover:bg-white hover:text-blue-900 transition-colors duration-300 font-semibold text-lg">
+    Contact Us
+  </button>
+</Link>
     </div>
   </div>
 </section>
